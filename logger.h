@@ -53,31 +53,32 @@ void debugLog(const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& 
 
 template <typename T0, typename T1, typename T2, typename T3, typename T4,
             typename T5>
-void debugLog(const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4, const T5& t5)
+void debugLog(const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4, 
+            const T5& t5)
 {
     debugLogImpl(t0, t5, t4, t3, t2, t1);
 }
 
 template <typename T0, typename T1, typename T2, typename T3, typename T4, 
         typename T5, typename T6>
-void debugLog(const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4, const T5& t5,
-              const T6& t6)
+void debugLog(const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4, 
+        const T5& t5, const T6& t6)
 {
     debugLogImpl(t0, t6, t5, t4, t3, t2, t1);
 }
 
 template <typename T0, typename T1, typename T2, typename T3, typename T4,
         typename T5, typename T6, typename T7>
-void debugLog(const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4, const T5& t5,
-              const T6& t6, const T7& t7)
+void debugLog(const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4,
+            const T5& t5, const T6& t6, const T7& t7)
 {
     debugLogImpl(t0, t7, t6, t5, t4, t3, t2, t1);
 }
 
 template <typename T0, typename T1, typename T2, typename T3, typename T4,
         typename T5, typename T6, typename T7, typename T8>
-void debugLog(const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4, const T5& t5,
-              const T6& t6, const T7& t7, const T8& t8)
+void debugLog(const T0& t0, const T1& t1, const T2& t2, const T3& t3, const T4& t4,
+            const T5& t5, const T6& t6, const T7& t7, const T8& t8)
 {
     debugLogImpl(t0, t8, t7, t6, t5, t4, t3, t2, t1);
 }
